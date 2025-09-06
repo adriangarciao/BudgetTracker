@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 id="myH1">Budget Tracker</h1>
+
+    </div>
+    <div id="input-container">
+      <h2 id="incomeH2">Income</h2>
+        <form id="income-form">
+          <label for="income">Income:</label>
+          <input type="number" class="income" placeholder="Enter Income" min="0" step="0.1" name="income">
+        </form>
+        <form id="budget-form">
+            <h2 id="entry-num">Entry #1</h2>
+
+            <input type="number" class="amount" placeholder="Enter amount $$$" min="0" step="0.1">
+
+            <label for="category">Category:</label>
+            <select class="category" name="category" required>
+              <option value="" disabled selected>Select a category</option>
+              <option value="Food">Food</option>
+              <option value="Transport">Transport</option>
+              <option value="Entertainment">Entertainment</option>
+              <option value="Bills">Bills</option>
+              <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+        </form>
+    </div>
+    <button type="button" onclick="addEntry()"> + Add Entry</button>
+    <button type="button" onclick="submitForms()">Submit</button>
+
+    <div>
+      <canvas id="dChart"></canvas>
+    </div>
+
+    <div>
+      <canvas id="bChart"></canvas>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

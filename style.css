@@ -1,0 +1,74 @@
+*{
+    font-family: inherit;
+}
+    body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);    
+    font-family: 'Montserrat', sans-serif;
+}
+#myH1{
+    background-color: hsl(241, 39%, 50%);
+    color: white;
+    width: 70vw;
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+
+}
+button{
+    margin: 3px;
+    background-color: hsl(241, 39%, 50%);
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    background-color: hsl(241, 39%, 55%);
+}
+button:active{
+    background-color: hsl(241, 39%, 40%);
+}
+#input-container{
+    border: 2px solid hsl(0, 0%, 80%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 60vw;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#budget-form{
+    font-size: 20px;
+}
+#entry-num{
+    font-size: 1.8rem;
+}
+.category{
+    padding: 2px;
+}
+.entry-type{
+    padding: 2px;
+}
+.amount{
+    padding: 2px;
+}
+#dChart{
+    margin: 20px auto;
+    display: block;
+    width: 50vw;
+    margin-bottom: 20px;
+}
+#bChart{
+    margin: 20px auto;
+    display: block;
+    width: 50vw;
+    margin-bottom: 20px;
+}
