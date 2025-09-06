@@ -89,7 +89,7 @@ function submitForms() {
 
     createDChart(cleanData, 'doughnut');
     createBChart(graph2Data);
-    // Replace this with actual submission logic, e.g., sending to a server.
+    
 }
 
 function dataCleaner(data){
